@@ -1,0 +1,4 @@
+discharge_text,risk_label
+"Patient with pneumonia, eGFR 45, K+ 5.8, Na+ 128",HIGH
+"Heart failure controlled, normal labs",LOW
+"AKI resolved, creatinine normalized",MEDIUM
