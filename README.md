@@ -8,7 +8,7 @@ Neurosymbolic Framework for Hospital Discharge Risk Classification
 [![License](https://img.shields.io/github/license/sravanthivelavolu/Discharge-Risk-NS)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](requirements.txt)
 
-## 🎯 Key Results (MIMIC-IV n=21,283)
+## 🎯 Key Results (MIMIC-IV)
 | Model | Accuracy | F1-Score |
 |-------|----------|----------|
 | TF-IDF+RF | 85.2% | 82.1% |
@@ -20,7 +20,7 @@ Neurosymbolic Framework for Hospital Discharge Risk Classification
 git clone https://github.com/sravanthivelavolu/Discharge-Risk-NS.git
 cd Discharge-Risk-NS
 pip install -r requirements.txt
-jupyter notebook notebooks/01_demonstration.ipynb
+jupyter notebook notebooks/Discharge-Risk-NS.ipynb
 ```
 
 ## 📊 Reproduce Results
