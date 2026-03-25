@@ -39,14 +39,14 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook "Discharge-Risk-NS git.ipynb"
 ```
-**← Contains ALL your charts, tables, and code!**
+**← Contains ALL charts, tables(accuracies), and complete code!**
 
 ## 📊 What You'll Get
 - ✅ Top 5 High-Risk Diseases chart (Pneumonia, HF, AKI, Sepsis, COPD)
 - ✅ Publication tables (99.6% accuracy)
 - ✅ Model demo with eGFR/K+/Na+ rules
 
-## 🔗 MIMIC-IV Data
+## 🔗 Dataset Link (MIMIC-IV)
 https://physionet.org/content/mimic-iv-note/2.2/
 
 ## 📚 Citation
