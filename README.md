@@ -15,53 +15,29 @@ Neurosymbolic Framework for Hospital Discharge Risk Classification
 | Rules Only | 87.4% | 84.1% |
 | **Discharge-Risk-NS** | **99.6%** | **98.9%** |
 
-**How to use **
-### **1. Install**
-```bash
-git clone https://github.com/YOURUSERNAME/Discharge-Risk-NS.git
-cd Discharge-Risk-NS
-pip install -r requirements.txt
-```
+## 🚀 How to Run
 
-### **2. Quick Demo (No MIMIC data needed!)**
-```bash
-# Run interactive demo
-python src/demo.py
-
-# Example Output:
-# Input: "Patient pneumonia eGFR 45 K+ 5.8 Na+ 128"
-# Output: HIGH-RISK (Score: 0.96)
-```
-
-### **3. Classify Single Discharge Summary**
-```python
-from src.model import DischargeRiskNS
-
-model = DischargeRiskNS()
-text = "Pneumonia heart failure AKI eGFR 32 K+ 6.1"
-risk, confidence = model.predict(text)
-print(f"Risk: {risk}, Confidence: {confidence:.3f}")
-# Output: Risk: HIGH, Confidence: 0.983
-```
-
-### **4. Batch Process CSV**
-```bash
-python src/batch_predict.py data/sample_discharge.csv --output predictions.csv
-```
-
-### **5. Reproduce Paper Results**
-```bash
-jupyter notebook notebooks/01_reproduce_res
-## 🚀 Quick Demo
+### **1. Clone & Install**
 ```bash
 git clone https://github.com/sravanthivelavolu/Discharge-Risk-NS.git
 cd Discharge-Risk-NS
 pip install -r requirements.txt
-jupyter notebook notebooks/Discharge-Risk-NS.ipynb
 ```
 
-## 📊 Reproduce Results
-- `notebooks/Discharge-Risk-NS github.ipynb` ← All your charts/tables
-- MIMIC-IV: https://physionet.org/content/mimiciv/2.2/
+### **2. Run Your Notebook**
+```bash
+jupyter notebook "Discharge-Risk-NS git.ipynb"
+```
+**← Contains ALL your charts, tables, and code!**
+
+## 📊 What You'll Get
+- ✅ Top 5 High-Risk Diseases chart (Pneumonia, HF, AKI, Sepsis, COPD)
+- ✅ Publication tables (99.6% accuracy)
+- ✅ Model demo with eGFR/K+/Na+ rules
+
+## 🔗 MIMIC-IV Data
+https://physionet.org/content/mimiciv/2.2/
 
 ## 📚 Citation
+[1] Johnson, A.E.W., Bulgarelli, L., Shen, L. et al. MIMIC-IV, a freely accessible electronic health record dataset. Sci Data 10, 1 (2023). https://doi.org/10.1038/s41597-022-01899-x
+[2] Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV (version 2.2). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/6mm1-ek67
