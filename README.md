@@ -17,9 +17,13 @@ Neurosymbolic Framework for Hospital Discharge Risk Classification
 
 ## 📋 Data Structure
 Discharge-Risk-NS/
+
 ├── Discharge-Risk-NS git.ipynb      # notebook
+
 ├── requirements.txt                 # Dependencies
+
 ├── README.md                       # Main page
+
 └── DATASET_DETAILS.md              # Dataset
 
 ## 🚀 How to Run
