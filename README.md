@@ -36,7 +36,7 @@ jupyter notebook "Discharge-Risk-NS git.ipynb"
 - ✅ Model demo with eGFR/K+/Na+ rules
 
 ## 🔗 MIMIC-IV Data
-https://physionet.org/content/mimiciv/2.2/
+https://physionet.org/content/mimic-iv-note/2.2/
 
 ## 📚 Citation
 [1] Johnson, A.E.W., Bulgarelli, L., Shen, L. et al. MIMIC-IV, a freely accessible electronic health record dataset. Sci Data 10, 1 (2023). https://doi.org/10.1038/s41597-022-01899-x
