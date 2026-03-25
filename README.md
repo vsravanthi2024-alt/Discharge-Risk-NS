@@ -15,6 +15,13 @@ Neurosymbolic Framework for Hospital Discharge Risk Classification
 | Rules Only | 87.4% | 84.1% |
 | **Discharge-Risk-NS** | **99.6%** | **98.9%** |
 
+## 📋 Data Structure
+Discharge-Risk-NS/
+├── Discharge-Risk-NS git.ipynb      # notebook
+├── requirements.txt                 # Dependencies
+├── README.md                       # Main page
+└── DATASET_DETAILS.md              # Dataset
+
 ## 🚀 How to Run
 
 ### **1. Clone & Install**
